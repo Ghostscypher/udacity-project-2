@@ -42,7 +42,7 @@ function isValidURI(uri: string): boolean {
 
   /**************************************************************************** */
   app.get("/filteredimage", async (req, res) => {
-    const image_url = req.query.image_url;
+    const image_url:string = req.query.image_url;
 
     // Validate if image_url exists
     if (!image_url) {
