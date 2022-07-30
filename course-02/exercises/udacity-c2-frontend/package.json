@@ -24,6 +24,7 @@
     "@ionic-native/status-bar": "^5.9.0",
     "@ionic/angular": "^5.5.2",
     "core-js": "^3.0.0",
+    "dotenv": "^16.0.1",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
